@@ -1,0 +1,13 @@
+Recursive Program to print multiplication of a numbers
+
+
+def multiplication(n,m):
+#initializing base case
+    if n==0 or m==0:
+       return 0
+    smalloutput=(m*(n-1))
+    return smalloutput+n
+     
+print(multiplication(3,5))
+
+output=15
